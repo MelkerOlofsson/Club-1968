@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Studieprojekt skapat av Melker Olofsson på IT-högskolan i Göteborg.
+      Ansökningssida för Club 1968 där vem som helst som brinner för laget kan bli medlem."
+    />
+    <title>Sektion B | Club 1968</title>
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header and Navbar -->
+
+    <header>
+      <nav>
+        <ul class="navlist">
+          <li class="navbutton">
+            <a href="sektion-b.html">Gå med</a>
+          </li>
+          <li class="navimage">
+            <a href="index.html" id="logo">
+              <img
+                src="media/assets/logotyp.png"
+                alt="Club 1968 logotyp och hemknapp"
+            /></a>
+          </li>
+          <li class="navbutton">
+            <a href="index.html#länkar">Länkar</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Join  -->
+
+    <main>
+      <section class="intro" id="join">
+        <h1>Sektion B</h1>
+      </section>
+      <section class="join-container">
+        <h2><u>Gå med oss!</u></h2>
+        <p>
+          CLUB 1968 är inte bara en supporterklubb för Kalmar HC, det är en
+          passionerad gemenskap av individer som delar en djup kärlek till
+          ishockey. Vi är de bankande hjärtanen som fyller arenan med glädje,
+          spänning och högljudda hejarop vid varje match.
+        </p>
+        <p>
+          Går du med i CLUB 1968 så blir du en del av en familj som delar samma
+          entusiasm. Det här kan du förvänta dig:
+        </p>
+        <ul>
+          <li>
+            <strong>Samhörighet:</strong> En välkomnande atmosfär där nya vänner
+            snabbt blir gamla. Vi delar glädjen över vinsterna och stöttar
+            varandra i motgångarna.
+          </li>
+          <li>
+            <strong>Exklusiva Upplevelser:</strong> Medlemskapet ger dig
+            tillgång till unika evenemang, träffar med spelarna, och chansen att
+            uppleva Kalmar HC på ett sätt som få andra kan.
+          </li>
+          <li>
+            <strong>Gemensam Glädje:</strong> Varje mål, varje räddning och
+            varje puckberöring blir en gemensam triumf när vi är tillsammans.
+          </li>
+          <li>
+            <strong>Möjlighet att påverka:</strong> CLUB 1968 ger dig en röst i
+            hur vi stöder vårt lag och vår gemenskap. Dina idéer och engagemang
+            är värdefulla för oss.
+          </li>
+        </ul>
+        <p>
+          Så varför gå med i CLUB 1968? För att fördjupa din kärlek till
+          ishockeyn, dela glädjen med andra likasinnade fans och vara en del av
+          något större än dig själv. Tillsammans gör vi skillnad och stärker
+          Kalmar HC:s framgångar. Fyll i vårt formulär nedan för att anmäla dig.
+          Välkommen att vara en del av vår passionerade gemenskap!
+        </p>
+        <form action="submit.html" autocomplete="off">
+          <fieldset>
+            <legend>Uppgifter</legend>
+            <label for="first-name">Förnamn:</label>
+            <input
+              type="text"
+              name="first-name"
+              placeholder="Förnamn"
+              id="first-name"
+            />
+            <label for="last-name">Efternamn:</label>
+            <input
+              type="text"
+              name="last-name"
+              placeholder="Efternamn"
+              id="last-name"
+            />
+            <label for="email">E-mail:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="exempel@exempel.se"
+            />
+            <label for="phone">Telefonnummer:</label>
+            <input type="tel" name="phone" id="phone" />
+            <p>Intresserande aktiviteter:</p>
+            <label for="klacken">Klacken</label>
+            <input
+              type="checkbox"
+              name="activities"
+              value="klacken"
+              id="klacken"
+            />
+            <label for="borta">Bortamatcher</label>
+            <input type="checkbox" name="activities" value="borta" id="borta" />
+            <label for="volontär">Volontär</label>
+            <input
+              type="checkbox"
+              name="activities"
+              value="volontär"
+              id="volontär"
+            />
+            <input type="submit" value="Skicka" id="submit-button" />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+      <section class="socials">
+        <p>
+          Denna webbplats är skapad för utbildningssyfte endast. Webbplatsen är
+          ett skolprojekt skapat av Melker Olofsson på IT-högskolan i Göteborg.
+        </p>
+        <div class="social-links">
+          <p>Följ oss även på sociala medier</p>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/KHCClub1968"
+                ><img
+                  src="media/assets/icons8-facebook-64.png"
+                  alt="Facebook logo and link"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/club_1968/"
+                ><img
+                  src="media/assets/icons8-instagram-64.png"
+                  alt="Instagram logo and link"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="copyright">
+        <p>© 2023 Imaginary company</p>
+      </section>
+    </footer>
+  </body>
+</html>
