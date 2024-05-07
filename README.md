@@ -1,7 +1,7 @@
 # Club-1968
 
 *Link:*
-*https://melkerolofsson.github.io/club-1968*
+*https://melkerolofsson.github.io/Club-1968*
 
 This is my first project that I created while studying Front-End web development at IT-Högskolan in Gothenburg, Sweden. It was made for the course in HTML5 and CSS3.
 
